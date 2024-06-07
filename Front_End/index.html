@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Cricket Scorecard</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .bar { height: 20px; background-color: blue; margin: 2px 0; }
+        .bar-container { display: flex; align-items: center; }
+        .bar-label { width: 100px; }
+    </style>
+</head>
+<body>
+<header>
+    <h1 class="main-title">Live Scorecard<br><span class="team-names">MUMBAI_INDIANS vs ROYAL_CHALLENGERS</span></h1>
+    <h3 class="date-time">Fri Jun 07 01:22:14 2024
+</h3>
+</header>
+<div class="header-info">
+    <div class="venue-overs">
+        <p><strong>Venue:</strong> IZAG</p>
+        <p><strong>Total Overs:</strong> 5</p>
+    </div>
+    <div class="toss-info">
+        <p><strong>Toss Won By:</strong> MUMBAI_INDIANS</p>
+        <p><strong>Choice:</strong> Bat</p>
+    </div>
+</div>
+    <div class="container">
+        <section class="teams">
+            <div class="team">
+                <h2>Team 1: MUMBAI_INDIANS</h2>
+                <ul>
+                    <li>HARDIK_PANDYA</li>
+                    <li>ROHIT_SHARMA</li>
+                    <li>AKASH_MADHWAL</li>
+                    <li>ANSHUL_KAMBOJ</li>
+                    <li>ARJUN_TENDULKAR</li>
+                    <li>DEWALD_BREVIS</li>
+                    <li>JASPRIT_BUMRAH</li>
+                    <li>ISHAN_KISHAN</li>
+                    <li>KUMAR_KARTIKEYA</li>
+                    <li>KWENA_MAPHAKA</li>
+                    <li>LUKE_WOOD</li>
+                </ul>
+            </div>
+            <div class="team">
+                <h2>Team 2: ROYAL_CHALLENGERS</h2>
+                <ul>
+                    <li>DU_PLESSIS</li>
+                    <li>RAJAT_PATIDAR</li>
+                    <li>VIRAT_KOHLI</li>
+                    <li>ANUJ_RAWAT</li>
+                    <li>DINESH_KARTHIK</li>
+                    <li>PRABHUDESSAI</li>
+                    <li>AKASH_DEEP</li>
+                    <li>ALZARRI_JOSEPH</li>
+                    <li>LOCKIE_FERGUSON</li>
+                    <li>MOHAMMED_SIRAJ</li>
+                    <li>YASH_DAYAL</li>
+                </ul>
+            </div>
+        </section>
+        <div class="details">
+<section class="bar-graph">
+    <h2>Graphical Representation</h2>
+    <canvas id='verticalBarGraph'></canvas>
+</section>
+</section>
+<section class="innings-details">
+<h2>Innings Details</h2>
+                 <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Innings 1 (MUMBAI_INDIANS)</th>
+                            <th>Innings 2 (ROYAL_CHALLENGERS)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Total Wickets</td><td>2</td><td>3</td></tr>
+                        <tr><td>Total Fours</td><td>9</td><td>6</td></tr>
+                        <tr><td>Total Sixes</td><td>8</td><td>5</td></tr>
+                        <tr><td>Total Dot Balls</td><td>5</td><td>13</td></tr>
+                        <tr><td>Total Extras</td><td>10</td><td>16</td></tr>
+                        <tr><td>Total Wides</td><td>1</td><td>2</td></tr>
+                        <tr><td>Total No Balls</td><td>1</td><td>3</td></tr>
+                        <tr><td>Total Byes</td><td>1</td><td>0</td></tr>
+                        <tr><td>Total Runs</td><td>105</td><td>74</td></tr>
+                    </tbody>
+                </table>
+                <div class="match-results">
+
+
+<p>Innings 1 (MUMBAI_INDIANS):  105 runs (5) + 2 W</p>
+<p>Innings 2 (ROYAL_CHALLENGERS):  74 runs (5) + 3 W</p>
+
+<p>Team MUMBAI_INDIANS emerged victorious, defeating Team ROYAL_CHALLENGERS by a margin of 31 runs.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Cricket Scorecard</p>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

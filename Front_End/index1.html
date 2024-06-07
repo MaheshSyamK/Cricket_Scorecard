@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Cricket Scorecard</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .bar { height: 20px; background-color: blue; margin: 2px 0; }
+        .bar-container { display: flex; align-items: center; }
+        .bar-label { width: 100px; }
+    </style>
+</head>
+<body>
+<header>
+    <h1 class="main-title">Live Scorecard<br><span class="team-names">m vs n</span></h1>
+    <h3 class="date-time">Thu Jun 06 21:22:31 2024
+</h3>
+</header>
+<div class="header-info">
+    <div class="venue-overs">
+        <p><strong>Venue:</strong> we</p>
+        <p><strong>Total Overs:</strong> 1</p>
+    </div>
+    <div class="toss-info">
+        <p><strong>Toss Won By:</strong> m</p>
+        <p><strong>Choice:</strong> Bat</p>
+    </div>
+</div>
+    <div class="container">
+        <section class="teams">
+            <div class="team">
+                <h2>Team 1: m</h2>
+                <ul>
+                    <li>q</li>
+                    <li>w</li>
+                    <li>e</li>
+                    <li>r</li>
+                    <li>t</li>
+                    <li>y</li>
+                    <li>u</li>
+                    <li>i</li>
+                    <li>o</li>
+                    <li>p</li>
+                    <li>a</li>
+                </ul>
+            </div>
+            <div class="team">
+                <h2>Team 2: n</h2>
+                <ul>
+                    <li>s</li>
+                    <li>d</li>
+                    <li>f</li>
+                    <li>g</li>
+                    <li>h</li>
+                    <li>j</li>
+                    <li>k</li>
+                    <li>l</li>
+                    <li>z</li>
+                    <li>x</li>
+                    <li>c</li>
+                </ul>
+            </div>
+        </section>
+        <div class="details">
+<section class="bar-graph">
+    <h2>Graphical Representation</h2>
+    <canvas id='verticalBarGraph'></canvas>
+</section>
+</section>
+<section class="innings-details">
+<h2>Innings Details</h2>
+                 <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Innings 1 (m)</th>
+                            <th>Innings 2 (n)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Total Wickets</td><td>0</td><td>0</td></tr>
+                        <tr><td>Total Fours</td><td>6</td><td>6</td></tr>
+                        <tr><td>Total Sixes</td><td>0</td><td>0</td></tr>
+                        <tr><td>Total Dot Balls</td><td>0</td><td>0</td></tr>
+                        <tr><td>Total Extras</td><td>0</td><td>0</td></tr>
+                        <tr><td>Total Wides</td><td>0</td><td>0</td></tr>
+                        <tr><td>Total No Balls</td><td>0</td><td>0</td></tr>
+                        <tr><td>Total Byes</td><td>0</td><td>0</td></tr>
+                        <tr><td>Total Runs</td><td>24</td><td>24</td></tr>
+                    </tbody>
+                </table>
+                <div class="match-results">
+
+
+<p>Innings 1 (m):  24 runs (1) + 0 W</p>
+<p>Innings 2 (n):  24 runs (1) + 0 W</p>
+
+<p>The match between m and n ended in a tie.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Cricket Scorecard</p>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

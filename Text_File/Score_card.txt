@@ -1,0 +1,156 @@
+
+
+
+Team 1: Mahesh
+Players:
+  mahesh
+  syam
+  kumar
+  kondapalli
+  durgarao
+  ram
+  jay
+  santosh
+  durgababu
+  sravani
+  kyathi
+
+Team 2: Rajesh
+Players:
+  manoj
+  teja
+  rajesh
+  vasu
+  venkat
+  murali
+  srinu
+  uday
+  giri
+  ramu
+  yoga
+
+Venue           :hrgroundbbs
+Time and Date   :Fri Jun 07 01:59:31 2024
+Number of Overs :2
+Toss won by     :Mahesh
+Chosen          :Bat
+
+
+
+Innings 1 Score card Ball by Ball in each Over:
+Batting @ Mahesh!
+
+Score Details of Over 1:
+Ball 1: 4
+Ball 2: 6
+Ball 3: 6
+Ball 4: 4
+Ball 5: .
+Ball 6: .
+
+Score Details of Over 2:
+Ball 1: w w 2
+Ball 2: 2
+Ball 3: .
+Ball 4: .
+Ball 5: .
+Ball 6: .
+
+
+
+Innings 2 Score card Ball by Ball in each Over:
+Batting @ Rajesh!
+
+Score Details of Over 1:
+Ball 1: 4
+Ball 2: 4
+Ball 3: 4
+Ball 4: Nb Nb w .
+Ball 5: .
+Ball 6: .
+
+Score Details of Over 2:
+Ball 1: 4
+Ball 2: 2
+Ball 3: 6
+Ball 4: 4
+Ball 5: .
+Ball 6: B
+
+
+
+																Scoreboard
+
+           	Category              Mahesh              Rajesh
+
+          Total Runs                  32                  41
+       Total Wickets                   0                   0
+         Total Fours                   2                   5
+         Total Sixes                   2                   1
+     Total Dot Balls                   6                   4
+        Total Extras                   8                  13
+         Total Wides                   2                   1
+       Total NoBalls                   0                   2
+          Total Byes                   0                   1
+
+
+
+
+									Bar Graph Data : [ Mahesh | Rajesh ]
+
+         Category 
+
+          Total Runs                  32 | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                      41 | $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+       Total Wickets                   0 | 
+                                       0 | 
+
+         Total Fours                   2 | @@@@@@@@@@@@@@@@
+                                       5 | $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+         Total Sixes                   2 | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                       1 | $$$$$$$$$$$$$$$$$$$$
+
+     Total Dot Balls                   6 | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                       4 | $$$$$$$$$$$$$$$$$$$$$$$$$$
+
+        Total Extras                   8 | @@@@@@@@@@@@@@@@@@@@@@@@
+                                      13 | $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+         Total Wides                   2 | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                       1 | $$$$$$$$$$$$$$$$$$$$
+
+      Total No Balls                   0 | 
+                                       2 | $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+          Total Byes                   0 | 
+                                       1 | $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
+
+
+
+
+       Team Rajesh emerged victorious, defeating Team Mahesh by a margin of 9 runs.
+
+
+													Winning Team: Rajesh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

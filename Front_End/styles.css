@@ -1,0 +1,247 @@
+body, h1, h2, h3, p, ul, li, table, th, td {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  background-image: url('../Images/imageb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  padding: 2vh 0;
+  position: relative;
+}
+
+header h1 {
+  font-size: min(13.5vh,6vw); 
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+}
+
+
+header h3 {
+  font-size: 1.8vw;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+/* Header info styles */
+.header-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vh 24vw;
+  color: rgb(255, 255, 255);
+}
+
+.venue-overs, .toss-info {
+  text-align: left;
+}
+
+.venue-overs p, .toss-info p {
+  margin-bottom: 0.5vh;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-info {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .venue-overs, .toss-info {
+      padding: 1vh 0;
+  }
+  
+  .teams {
+      flex-direction: column;
+  }
+  
+  .team ul {
+      font-size: 4vw;
+      font-family: bold;
+  }
+  
+  .team h2 {
+      font-size: 0.01vw;
+  }
+  
+  .innings-details th, .innings-details td {
+      font-size: 4vw;
+  }
+  
+  .match-results {
+      font-size: 4vw;
+  }
+}
+
+
+/* Container styles */
+.container {
+  padding: 2vh 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teams {
+  display: flex;
+  justify-content: center;
+  gap: 0.01vw;
+  width: 80%;
+  margin: 2vh auto; /* Center horizontally */
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgb(255, 255, 255);
+  border-radius: 1.5vw;
+  padding: 3vh 0;
+}
+
+.team {
+  flex: 1;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 2.4vw;
+  margin-bottom: 1vh;
+}
+
+.team ul {
+  list-style-type: none;
+  font-size: 2vw;
+}
+
+.team li {
+  margin: 0.5vh 0;
+}
+
+/* Bar graph section styles */
+.bar-graph {
+  width: 80%;
+  max-width: 80%; /* Ensure it doesn't overflow the viewport width */
+  margin: 2vh auto; /* Center horizontally */
+  text-align: center;
+  background-color: rgba(200, 200, 200, 0.1);
+  color: white;
+  padding: 2vh 0;
+  border-radius: 2vw; /* Responsive border radius */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar-graph h2 {
+  font-size: 4vw;
+  margin-bottom: 2vh;
+  color: white;
+}
+
+#verticalBarGraph {
+  width: 80%;
+  height: 400px; /* Set a fixed height for the bar graph */
+  max-height: 50vh; /* Optionally, set a maximum height relative to the viewport height */
+  border-radius: 1vw; /* Responsive border radius for the canvas */
+}
+
+
+
+/* Innings details table styles */
+.innings-details {
+  width: 100%;
+  text-align: center;
+}
+
+.innings-details table {
+  margin: 2vh 0;
+  border-collapse: collapse;
+  border-radius: 5vw;
+  width: 80%;
+  margin: 2vh auto; /* Center horizontally */
+}
+
+.innings-details th, .innings-details td {
+  border: 0.2vw solid rgba(0, 0, 0, 0.2);
+  padding: 1vh;
+  text-align: center;
+  font-size: min(3.5vh,1.5vw);
+}
+
+.innings-details th {
+  background-color: #a6c2be;
+  font-weight: bold;
+}
+
+.innings-details tr:nth-child(odd) {
+  background-color: #fdfefd;
+}
+
+.innings-details tr:nth-child(even) {
+  background-color: #b0ebf5;
+}
+
+.innings-details tr:hover {
+  background-color: #e9e9e9;
+}
+
+.innings-details h2 {
+  font-size: min(10.5vh,4.5vw); /* Adjust the font size responsively */
+  margin-bottom: 2vh;  /* Adjust the bottom margin */
+  color: #fffbfb;  /* Adjust the text color */
+  text-align: center;  /* Center the text */
+  margin-top: 8vh;
+}
+
+
+/* Match results styles */
+.match-results {
+  background-color: #ffc107;
+  border-radius: 2vw;
+  animation: highlight 1s infinite alternate;
+  text-align: center;
+  width: 80%;
+  margin: 2vh auto; /* Center horizontally */
+  padding: 3vh 0;
+  font-size: min(3.5vh,1.8vw);
+  font-style: italic;
+}
+
+
+@keyframes highlight {
+  from {
+      background-color: rgb(44, 186, 225);
+  }
+  to {
+      background-color: rgb(248, 216, 8);
+  }
+}
+
+/* Footer styles */
+footer {
+  width: 100%;
+  font-size: 3vh;
+  background-color: rgba(175, 28, 140 ,0.08);
+  color: #ffffff;
+  text-align: center;
+  padding: 4vh 0; 
+  position: relative;
+}
+
+.details {
+  width: 100%;
+}
